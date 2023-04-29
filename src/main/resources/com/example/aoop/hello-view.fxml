@@ -12,7 +12,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.aoop.HelloController">
    <children>
-      <ImageView fitHeight="400.0" fitWidth="600.0" opacity="0.47" pickOnBounds="true">
+      <ImageView fx:id="FivePlayers" fitHeight="400.0" fitWidth="600.0" opacity="0.47" pickOnBounds="true">
          <image>
             <Image url="@../../../../java/com/example/aoop/image/327868407_932913374513841_5794803659027955623_n.png" />
          </image>
@@ -25,7 +25,7 @@
             <ColorAdjust brightness="-0.19" contrast="-0.3" hue="0.34" saturation="0.21" />
          </effect>
       </Label>
-      <Button alignment="CENTER" contentDisplay="TOP" layoutX="32.0" layoutY="164.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" onAction="#threeplayers" prefHeight="35.0" prefWidth="266.0" text="Tournament for 3 players">
+      <Button alignment="CENTER" contentDisplay="TOP" layoutX="32.0" layoutY="228.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" onAction="#threeplayers" prefHeight="43.0" prefWidth="266.0" text="Tournament for 3 players">
          <font>
             <Font name="System Bold Italic" size="20.0" />
          </font>
@@ -40,7 +40,7 @@
             </DropShadow>
          </effect>
       </Button>
-      <Button alignment="CENTER" contentDisplay="TOP" layoutX="32.0" layoutY="248.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" onAction="#FourPlayers" prefHeight="35.0" prefWidth="266.0" text="Tournament for 4 players">
+      <Button alignment="CENTER" contentDisplay="TOP" layoutX="32.0" layoutY="143.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" onAction="#twoplayers" prefHeight="35.0" prefWidth="266.0" text="Turnament for 2 Players">
          <font>
             <Font name="System Bold Italic" size="20.0" />
          </font>
@@ -55,7 +55,7 @@
             </DropShadow>
          </effect>
       </Button>
-      <Button alignment="CENTER" contentDisplay="TOP" layoutX="32.0" layoutY="330.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" onAction="#FivePlayers" prefHeight="35.0" prefWidth="266.0" text="Tournament for 5 players">
+      <Button alignment="CENTER" contentDisplay="TOP" layoutX="32.0" layoutY="312.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" onAction="#fourplayers" prefHeight="43.0" prefWidth="266.0" text="Tournament for 4 players">
          <font>
             <Font name="System Bold Italic" size="20.0" />
          </font>

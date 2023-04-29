@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.aoop.PlayController">
+   <children>
+      <Button layoutX="152.0" layoutY="140.0" mnemonicParsing="false" onAction="#pingpong" prefHeight="60.0" prefWidth="266.0" text="PingPong" textFill="#9c0780">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Button>
+      <Button layoutX="152.0" layoutY="230.0" mnemonicParsing="false" onAction="#tictactoe" prefHeight="60.0" prefWidth="265.0" text="Tic Tac Toe" textFill="#811170">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="28.0" />
+         </font>
+      </Button>
+      <Button layoutX="232.0" layoutY="330.0" mnemonicParsing="false" onAction="#Back" prefHeight="22.0" prefWidth="106.0" text="Back" textFill="#811170">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="15.0" layoutY="22.0" prefHeight="60.0" prefWidth="569.0" text="SELECT YOUR FAVOURITE GAME " textFill="#8c0f6a">
+         <font>
+            <Font name="System Bold Italic" size="35.0" />
+         </font>
+         <effect>
+            <Bloom threshold="0.19" />
+         </effect>
+      </Label>
+   </children>
+</AnchorPane>

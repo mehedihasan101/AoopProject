@@ -29,13 +29,17 @@ public Parent root;
             scene = new Scene(root);
             stage.setScene(scene);
             stage.show();
-        System.out.println("okk");
-
     }
 
-    public void FivePlayers(ActionEvent actionEvent) {
+
+    public void twoplayers(ActionEvent event) throws IOException {
+        root = FXMLLoader.load(HelloApplication.class.getResource("play.fxml"));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
     }
 
-    public void FourPlayers(ActionEvent actionEvent) {
+    public void fourplayers(ActionEvent event) {
     }
 }
