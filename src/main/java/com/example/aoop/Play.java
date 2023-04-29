@@ -18,6 +18,7 @@ public class Play extends Application {
         FXMLLoader fxmlLoader = new FXMLLoader(FixtureThree.class.getResource("Play.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
         //  stage.setTitle("games");
+        //jkkk
         stage.setScene(scene);
         stage.show();
     }
